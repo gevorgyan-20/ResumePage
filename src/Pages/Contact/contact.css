@@ -1,0 +1,16 @@
+.contact {
+    margin: 0 auto;
+    width: 100%;
+    height: 555px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & .contactBlock {
+        height: 305px;
+        margin: 0 auto;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 45px;
+    }
+}

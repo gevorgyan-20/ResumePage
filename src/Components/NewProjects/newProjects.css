@@ -1,0 +1,19 @@
+.newProjects {
+    width: 970px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 38px;
+    margin-bottom: 15px;
+    background-color: rgba(204, 204, 204, 0.171);
+    & .newProjectBlock {
+        width: 400px;
+        height: 150px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 28px;
+    }
+}
