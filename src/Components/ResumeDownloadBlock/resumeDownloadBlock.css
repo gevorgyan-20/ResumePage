@@ -24,3 +24,57 @@
         }
     }
 }
+
+@media (max-width: 1200px) {
+    .resumeDownloadBlock {
+        gap: 50px;
+    }
+    .resumeDownloadBlock button {
+        width: 220px;
+        height: 55px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 992px) {
+    .resumeDownloadBlock {
+        gap: 40px;
+    }
+    .resumeDownloadBlock h1 {
+        font-size: 22px;
+    }
+    .resumeDownloadBlock button {
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .resumeDownloadBlock {
+        gap: 30px;
+    }
+    .resumeDownloadBlock h1 {
+        font-size: 20px;
+    }
+    .resumeDownloadBlock button {
+        width: 180px;
+        height: 45px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .resumeDownloadBlock {
+        padding-bottom: 30px;
+        gap: 20px;
+    }
+    .resumeDownloadBlock h1 {
+        font-size: 18px;
+    }
+    .resumeDownloadBlock button {
+        width: 160px;
+        height: 40px;
+        font-size: 12px;
+    }
+}

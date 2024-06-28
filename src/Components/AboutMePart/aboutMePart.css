@@ -2,9 +2,6 @@
     width: 100%;
     margin: 0 auto;
     height: 90vh;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     padding: 40px 0;
     background: rgb(255,255,255);
     & .stackContainer {
@@ -46,5 +43,86 @@
                 border-radius: 14px;
             }
         }
+    }
+}
+
+@media (max-width: 1200px) {
+    .aboutMePart .stackContainer .textBox h1 {
+        font-size: 25px;
+        max-width: 100%;
+    }
+    .aboutMePart .stackContainer .textBox p {
+        font-size: 16px;
+    }
+    .aboutMePart .stackContainer .myImage {
+        width: 380px;
+        height: 320px;
+    }
+}
+
+@media (max-width: 992px) {
+    .aboutMePart .stackContainer {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+    .aboutMePart .stackContainer .textBox {
+        max-width: 80%;
+        text-align: center;
+    }
+    .aboutMePart .stackContainer .textBox h1 {
+        font-size: 24px;
+    }
+    .aboutMePart .stackContainer .textBox p {
+        font-size: 15px;
+    }
+    .aboutMePart .stackContainer .myImage {
+        width: 350px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .aboutMePart {
+        padding: 30px 0;
+        height: auto;
+    }
+    .aboutMePart .stackContainer .textBox {
+        max-width: 90%;
+    }
+    .aboutMePart .stackContainer .textBox h2 {
+        font-size: 21px;
+    }
+    .aboutMePart .stackContainer .textBox h1 {
+        font-size: 22px;
+    }
+    .aboutMePart .stackContainer .textBox p {
+        font-size: 14px;
+    }
+    .aboutMePart .stackContainer .myImage {
+        width: 320px;
+        height: 280px;
+    }
+}
+
+@media (max-width: 576px) {
+    .aboutMePart {
+        padding: 20px 0;
+    }
+    .aboutMePart .stackContainer .textBox {
+        max-width: 100%;
+    }
+    .aboutMePart .stackContainer .textBox h2 {
+        font-size: 19px;
+    }
+    .aboutMePart .stackContainer .textBox h1 {
+        font-size: 20px;
+    }
+    .aboutMePart .stackContainer .textBox p {
+        font-size: 13px;
+    }
+    .aboutMePart .stackContainer .myImage {
+        width: 280px;
+        height: 240px;
     }
 }

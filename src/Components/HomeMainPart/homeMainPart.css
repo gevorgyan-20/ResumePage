@@ -46,3 +46,59 @@
         }
     }
 }
+
+@media (max-width: 1200px) {
+    .homeMainPart .stackContainer .textBox {
+        font-size: 28px;
+    }
+    .homeMainPart .stackContainer .textBox p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 992px) {
+    .homeMainPart .stackContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .homeMainPart .stackContainer .textBox {
+        max-width: 80%;
+        text-align: center;
+    }
+    .homeMainPart .stackContainer .textBox p {
+        font-size: 18px;
+    }
+    .homeMainPart .stackContainer .myImage {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .homeMainPart {
+        padding: 100px 0;
+    }
+    .homeMainPart .stackContainer .textBox {
+        font-size: 26px;
+    }
+    .homeMainPart .stackContainer .textBox p {
+        font-size: 16px;
+    }
+    .homeMainPart .stackContainer .myImage {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 576px) {
+    .homeMainPart .stackContainer .textBox {
+        font-size: 24px;
+    }
+    .homeMainPart .stackContainer .textBox p {
+        font-size: 14px;
+    }
+    .homeMainPart .stackContainer .myImage {
+        width: 200px;
+        height: 200px;
+    }
+}
