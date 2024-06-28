@@ -122,6 +122,10 @@
 }
 
 @media (max-width: 576px) {
+    .mySkills .mySkillsContainer {
+        flex-direction: row;
+        gap: 5px;
+    }
     .mySkills .mySkillsContainer p {
         font-size: 14px;
     }
