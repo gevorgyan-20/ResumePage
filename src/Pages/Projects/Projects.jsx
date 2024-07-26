@@ -11,8 +11,6 @@ const Projects = () => {
         <div className='projectsBlock'>
             <Project3/>
             <Project1/>
-            <h5>Third website was maded using JSON-SERVER and there are request errors.</h5>
-            <Project2/>
             <NewProjects/>
         </div>
     </div>
