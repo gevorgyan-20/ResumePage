@@ -70,6 +70,10 @@
     content: "SASS";
 }
 
+#tailwind::before {
+    content: "Tailwind";
+}
+
 @media (max-width: 1200px) {
     .mySkills .mySkillsContainer {
         width: 100%;

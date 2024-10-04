@@ -5,6 +5,7 @@ import ReactLogo from '../../Images/Skills/React logo.png'
 import ReduxLogo from '../../Images/Skills/Redux logo.png'
 import SassLogo from '../../Images/Skills/Sass.jpg'
 import CssLogo from '../../Images/Skills/css.png'
+import TailwindLogo from '../../Images/Skills/tailwind logo.png'
 import './mySkills.css'
 
 const MySkills = () => {
@@ -29,6 +30,9 @@ const MySkills = () => {
             </div>
             <div id='sass'>
                 <img src={SassLogo}/>
+            </div>
+            <div id='tailwind'>
+                <img src={TailwindLogo}/>
             </div>
         </div>
     </div>
