@@ -8,6 +8,7 @@ const Projects = () => {
   return (
     <div className='projects'>
         <div className='projectsBlock'>
+          {/* Will be created by canva soon */}
             <Project3/>
             <Project1/>
             <NewProjects/>
