@@ -7,9 +7,13 @@
     align-items: center;
     border: 1px solid rgb(226, 226, 226);
     border-radius: 18px;
-    h2 {
-        width: 200px;
+    & .projectInfo {
+        width: 40%;
+        text-align: center;
         color: rgb(37, 121, 124);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     a {
         width: 43%;
@@ -32,7 +36,7 @@
         height: 320px;
         gap: 20px;
     }
-    .project h2 {
+    .project .projectInfo {
         font-size: 18px;
     }
     .project img {
@@ -47,7 +51,7 @@
         height: auto !important;
         gap: 10px;
     }
-    .project h2 {
+    .project .projectInfo {
         font-size: 15px;
     }
     .project img {
@@ -60,7 +64,7 @@
         padding: 10px;
         gap: 8px;
     }
-    .project h2 {
+    .project .projectInfo {
         font-size: 12px;
     }
     .project img {

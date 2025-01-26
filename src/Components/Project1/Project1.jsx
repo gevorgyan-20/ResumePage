@@ -1,15 +1,16 @@
 import React from 'react'
 import './project1.css'
-import image from '../../Images/ProjectImages/project1.png'
 import { Link } from 'react-router-dom'
 
-const Project1 = () => {
+const Project1 = ({title, link, image}) => {
   return (
     <div className='project'>
-        <h2>Online Shoping Website</h2>
-        <Link to='https://storee-project.vercel.app/' target="_blank">
+        <Link to={link} target="_blank">
             <img src={image}/>
         </Link>
+        <div className='projectInfo'>
+          <h2>{title}</h2>
+        </div>
     </div>
   )
 }
