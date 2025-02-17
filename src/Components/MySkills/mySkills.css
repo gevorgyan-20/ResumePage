@@ -67,7 +67,7 @@
 }
 
 #sass::before {
-    content: "SASS";
+    content: "SASS/SCSS";
 }
 
 #tailwind::before {

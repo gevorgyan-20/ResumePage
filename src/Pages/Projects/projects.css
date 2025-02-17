@@ -1,17 +1,44 @@
 .projects {
-    margin: 0 auto;
+    max-width: 1400px;
+    margin: 30px auto;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    gap: 40px;
     & .projectsBlock {
-        width: 80%;
-        padding-top: 100px;
+        min-height: 600px;
         margin: 0 auto;
-        width: 90%;
+        width: 98%;
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         align-items: center;
-        gap: 45px;
+        gap: 55px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .projects {
+        & .projectsBlock {
+            gap: 110px;
+            min-height: 1000px;
+        }
+    }
+}
+
+
+@media (max-width: 900px) {
+    .projects {
+        & .projectsBlock {
+            gap: 60px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .projects {
+        & .projectsBlock {
+            flex-direction: column;
+            gap: 60px;
+        }
     }
 }
