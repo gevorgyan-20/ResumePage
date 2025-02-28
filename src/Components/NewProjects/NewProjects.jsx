@@ -4,11 +4,8 @@ import './newProjects.css'
 const NewProjects = () => {
 
   return (
-    <div className="card2">
-      <div className="circleRed"></div>
-      <div className='newProjects'>
+    <div className="project">
         <div className='newProjectBlock'>New projects coming soon.. 🤠</div>
-      </div>
     </div>
   )
 }

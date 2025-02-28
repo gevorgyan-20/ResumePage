@@ -4,7 +4,6 @@ import NewProjects from '../../Components/NewProjects/NewProjects'
 import image1 from '../../Images/ProjectImages/project1.png'
 import image2 from '../../Images/ProjectImages/project2.png'
 import image3 from '../../Images/ProjectImages/project3.png'
-import Projectt from '../../Components/Projectt/Projectt'
 import './projects.css'
 
 const projectsData = [
@@ -35,7 +34,7 @@ const Projects = () => {
   return (
     <div className='projects'>
         <div className='projectsBlock'>
-            {projectsData.map((project) => <Projectt tools={project.tools} key={project.id} title={project.title} link={project.link} image={project.image}/> )}
+            {projectsData.map((project) => <Project1 tools={project.tools} key={project.id} title={project.title} link={project.link} image={project.image}/> )}
             <NewProjects/>
         </div>
     </div>
